@@ -1,0 +1,5 @@
+./configure --prefix=/home/bjzhangdongyue/projects/datacenter/common/third_gcc_5_4_0/glog_ext \
+                     --disable-shared --enable-static \
+                     --with-gflags=/home/bjzhangdongyue/projects/datacenter/common/third_gcc_5_4_0/gflags
+
+make && make install
